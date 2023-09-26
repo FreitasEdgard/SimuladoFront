@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>E V E N T +</title>
+
+</head>
+<body>
+    <header>
+        <img src="../img/Logo.png" alt="Logo da Minha Empresa">
+        <nav>
+            <ul>
+                <li><a href="../Home/index.html">Home</a></li>
+                <li><a href="../Eventos/index.html">Eventos</a></li>
+                <li><a href="../Usuarios/index.html">Usuários</a></li>
+                <li><a href="../Contatos/index.html">Contatos</a></li>
+                <li><a href="../Administradores/index.html">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="central">
+        <div class="conteudo-esquerda">
+            <img src="../img/BodyCadastroEvento.png" alt="Imagem Body">
+        </div>
+
+        <div class="nome-evento">
+            <input type="text" placeholder="Nome">
+            <button>Nome</button>
+        </div>
+
+        <div class="tipo-evento">
+            <input type="text" placeholder="Evento">
+            <button>Evento</button>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="registro">
+            <h3>Registro 1</h3>
+            <p>Descrição do Registro 1</p>
+            <button class="editar" onclick="editarRegistro(1)">
+                <img src="editar-icon.png" alt="Editar">
+            </button>
+            <button class="excluir" onclick="excluirRegistro(1)">
+                <img src="excluir-icon.png" alt="Excluir">
+            </button>
+        </div>
+    
+        <div class="registro">
+            <h3>Registro 2</h3>
+            <p>Descrição do Registro 2</p>
+            <button class="editar">
+                <img src="editar.png" alt="Editar">
+            </button>
+            <button class="excluir">
+                <img src="excluir.png" alt="Excluir">
+            </button>
+        </div>
+
+    </div>
+    <footer>
+        Escola Senai de Informatica - 2023
+    </footer>
+</body>
+</html>
